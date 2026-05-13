@@ -1,5 +1,7 @@
 # xiaoman-claude
 
+English | [简体中文](README.zh-CN.md)
+
 A terminal multi-agent development assistant built through learning, migration, and engineering iteration.
 
 <p align="center">
