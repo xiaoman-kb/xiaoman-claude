@@ -2,6 +2,13 @@
 
 A terminal multi-agent development assistant built through learning, migration, and engineering iteration.
 
+<p align="center">
+  <img src="docs/image/workspace-overview.png" alt="Workspace overview with teammates, tasks, and worktrees" width="48%" />
+  <img src="docs/image/message-flow.png" alt="Message-flow terminal UI with streamed assistant output" width="48%" />
+</p>
+
+Terminal snapshots: workspace coordination on the left, message-flow interaction on the right.
+
 This project started after I worked through [`learn-claude-code`](https://github.com/shareAI-lab/learn-claude-code) and then kept going: from learning the ideas, to migrating the core patterns, to turning them into a more personal, runnable, and extensible terminal system.
 
 It is not a direct copy of the course code. It is the version that grew out of understanding concepts like agent loops, tool use, team protocol, autonomous agents, context compaction, and git worktree isolation, then shaping those ideas into a project with its own structure and trade-offs.
@@ -134,5 +141,13 @@ What started as a learning process around agent loops, tool use, team protocols,
 - Improve configuration templates and startup guidance
 - Add richer shortcuts and built-in help inside the CLI
 - Expand tests around teammate protocols and worktree isolation
+
+## GitHub Homepage Settings
+
+If you want the repository page to match the README tone, use:
+
+- Description: `A terminal multi-agent development assistant built from learning, migration, and engineering iteration.`
+- Tagline: `From learning agent systems to building a personal multi-agent terminal harness.`
+- Topics: `ai-agent`, `multi-agent`, `claude`, `anthropic`, `terminal-ui`, `rich`, `python`, `git-worktree`, `developer-tools`, `agentic-workflow`
 
 This repository is both a working terminal agent harness and a record of how learned ideas can be turned into a personal system.
