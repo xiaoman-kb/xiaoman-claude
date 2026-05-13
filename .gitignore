@@ -1,0 +1,14 @@
+.env
+.team/
+.tasks/
+.worktrees/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+.DS_Store
